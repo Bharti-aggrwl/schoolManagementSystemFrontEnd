@@ -14,6 +14,9 @@ import { MatFormFieldModule} from '@angular/material/form-field'
 import { MatInputModule} from '@angular/material/input'
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule} from '@angular/common/http';
+import { RegistrationComponent } from './components/registration/registration.component';
+import {MatIconModule} from '@angular/material/icon';
+import {MatBadgeModule} from '@angular/material/badge';
 
 @NgModule({
   declarations: [
@@ -21,7 +24,8 @@ import { HttpClientModule} from '@angular/common/http';
     NavBarComponent,
     LoginComponent,
     HomeComponent,
-    DashboardComponent 
+    DashboardComponent,
+    RegistrationComponent 
     
   ],
   imports: [
@@ -33,7 +37,9 @@ import { HttpClientModule} from '@angular/common/http';
     MatFormFieldModule,
     MatInputModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    MatIconModule,
+    MatBadgeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
