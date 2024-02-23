@@ -24,7 +24,8 @@ import {MatDividerModule} from '@angular/material/divider';
     NavBarComponent,
     LoginComponent,
     HomeComponent,
-    DashboardComponent 
+    DashboardComponent,
+    RegistrationComponent 
     
   ],
   imports: [
