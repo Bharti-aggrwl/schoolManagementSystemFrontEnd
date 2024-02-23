@@ -1,6 +1,6 @@
 import { NgModule , CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { RegistrationComponent } from './components/registration/registration.component';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -25,7 +25,7 @@ import {MatDividerModule} from '@angular/material/divider';
     LoginComponent,
     HomeComponent,
     DashboardComponent,
-    RegistrationComponent 
+  RegistrationComponent
     
   ],
   imports: [
