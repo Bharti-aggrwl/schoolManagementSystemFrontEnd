@@ -13,7 +13,13 @@
     }
   }
   .main {
-    padding: 30px;
+    /* padding: 30px; */
+    width:100%;
+    
+  }
+  .container {
+    width: 100%;
+    height: 100%;
   }
 
 }
