@@ -15,6 +15,9 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule} from '@angular/common/http';
 import {MatIconModule} from '@angular/material/icon';
 import {MatDividerModule} from '@angular/material/divider';
+import { HeaderComponent } from './components/header/header.component';
+import { SideNavComponent } from './components/side-nav/side-nav.component';
+import { LoginNewComponent } from './components/login-new/login-new.component';
 
 
 @NgModule({
@@ -23,10 +26,11 @@ import {MatDividerModule} from '@angular/material/divider';
     NavBarComponent,
     LoginComponent,
     HomeComponent,
+HeaderComponent,
+SideNavComponent,
+LoginNewComponent
 
-  RegistrationComponent,
-    DashboardComponent,
-  RegistrationComponent
+  
     
   ],
   imports: [

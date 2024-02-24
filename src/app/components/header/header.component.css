@@ -6,6 +6,7 @@
     display: flex;
     justify-content: space-between;
     box-shadow: 5px 5px 5px #939393;
+    width:100%;
     .logo {
       font-weight: bold;
       font-size: 20px;
