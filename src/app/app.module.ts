@@ -15,10 +15,6 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule} from '@angular/common/http';
 import {MatIconModule} from '@angular/material/icon';
 import {MatDividerModule} from '@angular/material/divider';
-import { DashboardComponent } from './components/dashboard/dashboard.component';
-import { HeaderComponent } from './components/header/header.component';
-import { SideNavComponent } from './components/side-nav/side-nav.component';
-import { TodWidgetComponent } from './components/tod-widget/tod-widget.component';
 
 
 @NgModule({
@@ -30,10 +26,7 @@ import { TodWidgetComponent } from './components/tod-widget/tod-widget.component
 
   RegistrationComponent,
     DashboardComponent,
-    HeaderComponent,
-    SideNavComponent,
-    TodWidgetComponent,
-
+  RegistrationComponent
     
   ],
   imports: [
