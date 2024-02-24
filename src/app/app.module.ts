@@ -8,7 +8,6 @@ import { MatButtonModule } from '@angular/material/button';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { LoginComponent } from './components/login/login.component';
 import { HomeComponent } from './components/home/home.component';
-import { DashboardComponent } from './components/dashboard/dashboard.component'
 import {MatToolbarModule} from '@angular/material/toolbar';
 import { MatFormFieldModule} from '@angular/material/form-field'
 import { MatInputModule} from '@angular/material/input'
@@ -16,6 +15,10 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule} from '@angular/common/http';
 import {MatIconModule} from '@angular/material/icon';
 import {MatDividerModule} from '@angular/material/divider';
+import { DashboardComponent } from './components/dashboard/dashboard.component';
+import { HeaderComponent } from './components/header/header.component';
+import { SideNavComponent } from './components/side-nav/side-nav.component';
+import { TodWidgetComponent } from './components/tod-widget/tod-widget.component';
 
 
 @NgModule({
@@ -24,8 +27,13 @@ import {MatDividerModule} from '@angular/material/divider';
     NavBarComponent,
     LoginComponent,
     HomeComponent,
+
+  RegistrationComponent,
     DashboardComponent,
-  RegistrationComponent
+    HeaderComponent,
+    SideNavComponent,
+    TodWidgetComponent,
+
     
   ],
   imports: [
