@@ -16,6 +16,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule} from '@angular/common/http';
 import {MatIconModule} from '@angular/material/icon';
 import {MatDividerModule} from '@angular/material/divider';
+import { LoginNewComponent } from './components/login-new/login-new.component';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import {MatDividerModule} from '@angular/material/divider';
     LoginComponent,
     HomeComponent,
     DashboardComponent,
-  RegistrationComponent
+  RegistrationComponent,
+  LoginNewComponent
     
   ],
   imports: [
