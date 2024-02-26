@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-.header1{
-
-}
-
 .main-container {
   display: flex;
   .side-nav {
