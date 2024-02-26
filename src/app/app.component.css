@@ -1,8 +1,9 @@
-*
-{
-  margin:0;
+* {
   padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
+
 .main-container {
   display: flex;
   .side-nav {
@@ -19,8 +20,6 @@
   }
   .main {
     padding: 30px;
+    width: 100%;
   }
-}
-.container {
-  overflow: none;
 }
