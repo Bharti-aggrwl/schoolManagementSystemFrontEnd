@@ -18,6 +18,13 @@ import { MatDividerModule } from '@angular/material/divider';
 import { HeaderComponent } from './components/header/header.component';
 import { SideNavComponent } from './components/side-nav/side-nav.component';
 import { LoginNewComponent } from './components/login-new/login-new.component';
+import { TopWidgetComponent } from './components/top-widget/top-widget.component';
+import { SalesByCategoryComponent } from './components/sales-by-category/sales-by-category.component';
+import { SalesByMonthComponent } from './components/sales-by-month/sales-by-month.component';
+import { TopThreeProductsComponent } from './components/top-three-products/top-three-products.component';
+import { LastFewTransactionsComponent } from './components/last-few-transactions/last-few-transactions.component';
+import { DashboardComponent } from './components/dashboard/dashboard.component';  
+
 
 @NgModule({
   declarations: [
@@ -25,9 +32,17 @@ import { LoginNewComponent } from './components/login-new/login-new.component';
     NavBarComponent,
     LoginComponent,
     HomeComponent,
-    HeaderComponent,
-    SideNavComponent,
-    LoginNewComponent,
+HeaderComponent,
+SideNavComponent,
+LoginNewComponent,
+TopWidgetComponent,
+SalesByCategoryComponent,
+SalesByMonthComponent,
+TopThreeProductsComponent,
+LastFewTransactionsComponent,
+DashboardComponent
+
+  
   ],
   imports: [
     BrowserModule,
