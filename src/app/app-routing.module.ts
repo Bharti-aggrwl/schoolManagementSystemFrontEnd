@@ -5,8 +5,8 @@ import { LoginComponent } from './components/login/login.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { RegistrationComponent } from './components/registration/registration.component';
 import { LoginNewComponent } from './components/login-new/login-new.component';
-
-
+import { TopThreeProductsComponent } from './components/top-three-products/top-three-products.component';
+import { TopWidgetComponent } from './components/top-widget/top-widget.component';
 const routes: Routes = [
   {
     path:'',
@@ -32,6 +32,18 @@ const routes: Routes = [
     path:"loginNew",
     component:LoginNewComponent,
     pathMatch:'full'
+  },
+  {
+    path:"TopThreeProductsComponent",
+    component:TopThreeProductsComponent,
+    pathMatch:"full"
+  },
+  {
+    
+      path:"TopWidgetComponent",
+      component:TopWidgetComponent,
+      pathMatch:"full"
+    
   }
 ];
 

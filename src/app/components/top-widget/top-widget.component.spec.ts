@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { TodWidgetComponent } from './tod-widget.component';
+import { TopWidgetComponent } from './top-widget.component';
 
-describe('TodWidgetComponent', () => {
-  let component: TodWidgetComponent;
-  let fixture: ComponentFixture<TodWidgetComponent>;
+describe('TopWidgetComponent', () => {
+  let component: TopWidgetComponent;
+  let fixture: ComponentFixture<TopWidgetComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ TodWidgetComponent ]
+      declarations: [ TopWidgetComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(TodWidgetComponent);
+    fixture = TestBed.createComponent(TopWidgetComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

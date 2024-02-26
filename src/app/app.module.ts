@@ -1,4 +1,4 @@
-import { NgModule , CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
+  import { NgModule , CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { RegistrationComponent } from './components/registration/registration.component';
 import { AppRoutingModule } from './app-routing.module';
@@ -18,7 +18,12 @@ import {MatDividerModule} from '@angular/material/divider';
 import { HeaderComponent } from './components/header/header.component';
 import { SideNavComponent } from './components/side-nav/side-nav.component';
 import { LoginNewComponent } from './components/login-new/login-new.component';
-
+import { TopWidgetComponent } from './components/top-widget/top-widget.component';
+import { SalesByCategoryComponent } from './components/sales-by-category/sales-by-category.component';
+import { SalesByMonthComponent } from './components/sales-by-month/sales-by-month.component';
+import { TopThreeProductsComponent } from './components/top-three-products/top-three-products.component';
+import { LastFewTransactionsComponent } from './components/last-few-transactions/last-few-transactions.component';
+import { DashboardComponent } from './components/dashboard/dashboard.component';  
 
 @NgModule({
   declarations: [
@@ -28,7 +33,13 @@ import { LoginNewComponent } from './components/login-new/login-new.component';
     HomeComponent,
 HeaderComponent,
 SideNavComponent,
-LoginNewComponent
+LoginNewComponent,
+TopWidgetComponent,
+SalesByCategoryComponent,
+SalesByMonthComponent,
+TopThreeProductsComponent,
+LastFewTransactionsComponent,
+DashboardComponent
 
   
     
