@@ -23,8 +23,8 @@ import { SalesByCategoryComponent } from './components/sales-by-category/sales-b
 import { SalesByMonthComponent } from './components/sales-by-month/sales-by-month.component';
 import { TopThreeProductsComponent } from './components/top-three-products/top-three-products.component';
 import { LastFewTransactionsComponent } from './components/last-few-transactions/last-few-transactions.component';
-import { DashboardComponent } from './components/dashboard/dashboard.component';  
-
+import { DashboardComponent } from './components/dashboard/dashboard.component';
+import { SchoolAttendanceComponent } from './components/school-attendance/school-attendance.component';
 
 @NgModule({
   declarations: [
@@ -32,17 +32,16 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
     NavBarComponent,
     LoginComponent,
     HomeComponent,
-HeaderComponent,
-SideNavComponent,
-LoginNewComponent,
-TopWidgetComponent,
-SalesByCategoryComponent,
-SalesByMonthComponent,
-TopThreeProductsComponent,
-LastFewTransactionsComponent,
-DashboardComponent
-
-  
+    HeaderComponent,
+    SideNavComponent,
+    LoginNewComponent,
+    TopWidgetComponent,
+    SalesByCategoryComponent,
+    SalesByMonthComponent,
+    TopThreeProductsComponent,
+    LastFewTransactionsComponent,
+    DashboardComponent,
+    SchoolAttendanceComponent,
   ],
   imports: [
     BrowserModule,
