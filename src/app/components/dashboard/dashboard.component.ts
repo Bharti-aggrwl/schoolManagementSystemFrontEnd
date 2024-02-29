@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { TopWidgetComponent } from '../top-widget/top-widget.component';
+import { UserServiceService } from 'src/app/services/user-service.service';
 @Component({
   selector: 'app-dashboard',
   templateUrl: './dashboard.component.html',
