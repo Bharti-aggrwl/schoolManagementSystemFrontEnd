@@ -18,6 +18,8 @@ import {MatDividerModule} from '@angular/material/divider';
 import { HeaderComponent } from './components/header/header.component';
 import { SideNavComponent } from './components/side-nav/side-nav.component';
 import { LoginNewComponent } from './components/login-new/login-new.component';
+import { RegistrationNewComponent } from './components/registration-new/registration-new.component';
+import { DashboardComponent } from './components/dashboard/dashboard.component';
 
 
 @NgModule({
@@ -28,7 +30,8 @@ import { LoginNewComponent } from './components/login-new/login-new.component';
     HomeComponent,
 HeaderComponent,
 SideNavComponent,
-LoginNewComponent
+LoginNewComponent,
+RegistrationNewComponent,DashboardComponent
 
   
     

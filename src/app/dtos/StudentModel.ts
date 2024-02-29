@@ -1,0 +1,21 @@
+export interface StudentModel{
+     studentId:string,
+	 streamId:number,
+     loginId:number,
+	 admissionYear:number,
+	enrollStage:number,
+	currentStage:number,
+	 firstName:string,
+     middleName:string,
+    lastName:string,
+    emailId:string,
+    mobile:number,
+	registrationNo:number,
+	photoPath:string,
+	 photoExt:string,
+	 isConnectedToMail:boolean,
+    creationDate:string,
+	 activeStatus:boolean,
+	 lockingVersion:number,
+
+}
