@@ -7,11 +7,11 @@
                         <h3 class="pt-3 font-width-bold">Login</h3>
                     </div>
                     <div class="panel-body p-3">
-                        <form>
+                        <form (ngSubmit)="onSubmit()" action="">
                             <div class="form-group pt-3">
                                 <div class="input-field">
                                     <span class="fa fa-user p-2">  </span>
-                                        <input type="text" placeholder="Username">
+                                        <input name ="email" type="text" placeholder="email" [(ngModel)]="credentials.email" matInput required>
                                   
                                 </div>
                             </div>
@@ -19,7 +19,7 @@
                             <div class="form-group pt-3">
                                 <div class="input-field">
                                     <span class="fa fa-lock p-2"></span>
-                                        <input [type]="type" placeholder="Password">
+                                        <input name ="password" [type]="type" placeholder="password" [(ngModel)]="credentials.password" matInput required>
                                         <span (click)="hideShowPass()" class="fa {{eyeIcon}}"></span>
                                     
                                 </div>
@@ -27,8 +27,9 @@
                             <div class="form-inline fr mt-4">
                                 <a id="forgot" class="font-width-bold">Forgot Password</a>
                             </div>
-                            <button type="submit" class="btn btn-primary btn-block mt-4 w-100">Login</button>
-                            <div class="text-center pt-4 text-muted">Dont't have account? <a id="forgot" routerLink="/registration">SignUp</a></div>
+                            <button type="submit" class="btn btn-primary btn-block mt-4 w-100" (click)="getUser()">Login</button>
+                            <h1>user is {{ user.data.message }}</h1>
+                            <div class="text-center pt-4 text-muted">Dont't have account? <a id="forgot" routerLink="/registrationNew">SignUp</a></div>
                         </form>
                     </div>
                 </div>

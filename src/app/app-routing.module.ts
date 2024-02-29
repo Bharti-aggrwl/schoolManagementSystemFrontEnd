@@ -8,15 +8,20 @@ import { LoginNewComponent } from './components/login-new/login-new.component';
 import { TopThreeProductsComponent } from './components/top-three-products/top-three-products.component';
 import { TopWidgetComponent } from './components/top-widget/top-widget.component';
 const routes: Routes = [
+  // {
+  //   path:'',
+  //   component:HomeComponent,
+  //   pathMatch:'full'
+  // },
+  // {
+  //   path:"login",
+  //   component:LoginComponent,
+  //   pathMatch:"full"
+  // },
   {
-    path:'',
-    component:HomeComponent,
-    pathMatch:'full'
-  },
-  {
-    path:"login",
-    component:LoginComponent,
-    pathMatch:"full"
+      path:'',
+      component:LoginNewComponent,
+      pathMatch:'full'
   },
   {
     path:"dashboard",

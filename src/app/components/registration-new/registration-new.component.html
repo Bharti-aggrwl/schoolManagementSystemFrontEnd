@@ -1,0 +1,105 @@
+<div class="outer">
+    <div class="container">
+        <div class="row">
+            <div class="offset-md2 col-lg-5 col-md-7 offset-lg-4 offset-md-3"> 
+                <div class="panel border bg-white">
+                    <div class="panel-heading">
+                        <h3 class="pt-3 font-width-bold">Sign Up</h3>
+                    </div>
+                    <div class="panel-body p-3">
+                        <!-- <form #studentModel="ngForm" (ngSubmit)="addStudent(studentModel.value)">  -->
+                          <form (ngSubmit)="addStudent()" action="">
+                            <td><mat-form-field class="f1">
+                                <mat-label>Student ID</mat-label>
+                                <input [(ngModel)]="studentModel.studentId" name="studentId" matInput placeholder="2k21/BT/01">
+                              </mat-form-field></td>
+                              <td><mat-form-field class="f1">
+                                <mat-label>First Name</mat-label>
+                                <input [(ngModel)]="studentModel.firstName" name="firstName" matInput placeholder="shivani">
+                              </mat-form-field></td>
+                              <td><mat-form-field class="f1">
+                                <mat-label>Middle Name</mat-label>
+                                <input [(ngModel)]="studentModel.middleName" name="middleName" matInput placeholder="Kumar">
+                            </mat-form-field></td>
+                            <td><mat-form-field class="f1">
+                                <mat-label>Last Name</mat-label>
+                                <input [(ngModel)]="studentModel.lastName" name="lastName" matInput placeholder="Srivastava">
+                            </mat-form-field></td>
+                              <br>
+                           
+                                <td><mat-form-field class="example-full-width">
+                                  <mat-label>EmailId</mat-label>
+                                  <input [(ngModel)]="studentModel.emailId" name="emailId" matInput placeholder="shivani@26">
+                                </mat-form-field></td>
+                                <td><mat-form-field class="example-full-width">
+                                  <mat-label>mobile</mat-label>
+                                  <input [(ngModel)]="studentModel.mobile" name="mobile" matInput placeholder="8998765544">
+                                </mat-form-field></td>
+                                <td><mat-form-field class="example-full-width">
+                                  <mat-label>admissionYear</mat-label>
+                                  <input [(ngModel)]="studentModel.admissionYear" name="admissionYear" matInput #admissionYear maxlength="4" placeholder="2024">
+                                </mat-form-field></td>
+                                <td><mat-form-field class="example-full-width">
+                                  <mat-label>streamId</mat-label>
+                                  <input [(ngModel)]="studentModel.streamId" name="streamId" matInput #admissionYear maxlength="4" placeholder="2024">
+                                </mat-form-field></td>
+                                <br>
+                                <td><mat-form-field class="example-full-width">
+                                  <mat-label>LoginId</mat-label>
+                                  <input [(ngModel)]="studentModel.loginId" name="loginId" matInput placeholder="Please enter in numbers">
+                                </mat-form-field></td>
+                                <td><mat-form-field class="example-full-width">
+                                  <mat-label>enrollStage</mat-label>
+                                  <input [(ngModel)]="studentModel.enrollStage" name="enrollStage" matInput placeholder="Please Enter enrollStage">
+                                </mat-form-field></td>
+                                <td><mat-form-field class="example-full-width">
+                                  <mat-label>currentStage</mat-label>
+                                  <input [(ngModel)]="studentModel.currentStage" name="currentStage" matInput #currentStage maxlength="4" placeholder="Please enter currentStage">
+                                </mat-form-field></td>
+                                <td><mat-form-field class="example-full-width">
+                                  <mat-label>registrationNo</mat-label>
+                                  <input [(ngModel)]="studentModel.registrationNo" name="registrationNo" matInput #registrationNo maxlength="4" placeholder="Please enter in numbers">
+                                </mat-form-field></td>
+                                <br>
+                                <td><mat-form-field class="example-full-width">
+                                  <mat-label>photoPath</mat-label>
+                                  <input [(ngModel)]="studentModel.photoPath" name="photoPath" matInput placeholder="Please enter photoPath">
+                                </mat-form-field></td>
+                                <td><mat-form-field class="example-full-width">
+                                  <mat-label>photoExt</mat-label>
+                                  <input [(ngModel)]="studentModel.photoExt" name="photoExt" matInput placeholder="Please Enter photoExt">
+                                </mat-form-field></td>
+                                <td><mat-form-field class="example-full-width">
+                                  <mat-label>isConnectedToMail</mat-label>
+                                  <input [(ngModel)]="studentModel.isConnectedToMail" name="isConnectedToMail" matInput #isConnectedToMail maxlength="5" placeholder="Please enter isConnectedToMail">
+                                </mat-form-field></td>
+                                <td><mat-form-field class="example-full-width">
+                                  <mat-label>creationDate</mat-label>
+                                  <input [(ngModel)]="studentModel.creationDate" name="creationDate" matInput #creationDate maxlength="10" placeholder="Please enter in creationDate">
+                                </mat-form-field></td>
+                                <br>
+                                <td><mat-form-field class="example-full-width">
+                                  <mat-label>activeStatus</mat-label>
+                                  <input [(ngModel)]="studentModel.activeStatus" name="activeStatus" matInput placeholder="Please enter activeStatus">
+                                </mat-form-field></td>
+                                <td><mat-form-field class="example-full-width">
+                                  <mat-label>lockingVersion</mat-label>
+                                  <input [(ngModel)]="studentModel.lockingVersion" name="lockingVersion" matInput placeholder="Please Enter lockingVersion">
+                                </mat-form-field></td>
+                                <!-- <td> <mat-form-field class="example-full-width">
+                                    <mat-label>choose date</mat-label>
+                                    <input matInput [matDatepicker]="picker">
+                                    <mat-hint>MM/DD/YYYY</mat-hint>
+                                    <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+                                     <mat-datepicker #picker></mat-datepicker>
+                                </mat-form-field></td> -->     
+                            <button type="submit" class="btn btn-primary btn-block mt-4 w-50 text-center" (click)="saveUser()">SignUp</button>
+                            <div class="text-center pt-4 text-muted">Already have account? <a id="forgot" routerLink="/">Login</a></div>
+                        </form>
+                    </div>
+                </div> 
+            </div>
+
+        </div>
+    </div>
+</div>
