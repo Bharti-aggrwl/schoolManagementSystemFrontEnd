@@ -25,6 +25,7 @@ import { TopThreeProductsComponent } from './components/top-three-products/top-t
 import { LastFewTransactionsComponent } from './components/last-few-transactions/last-few-transactions.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { SchoolAttendanceComponent } from './components/school-attendance/school-attendance.component';
+import { RegistrationNewComponent } from './components/registration-new/registration-new.component';
 
 @NgModule({
   declarations: [
@@ -42,6 +43,7 @@ import { SchoolAttendanceComponent } from './components/school-attendance/school
     LastFewTransactionsComponent,
     DashboardComponent,
     SchoolAttendanceComponent,
+    RegistrationNewComponent
   ],
   imports: [
     BrowserModule,
