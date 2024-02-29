@@ -1,0 +1,48 @@
+.widget-container {
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 30px;
+}
+
+.widget {
+  width: 100%;
+  margin: 1%;
+  padding: 4% 5% 4% 5%;
+  gap: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.widget-icon-container {
+  width: 100%;
+  padding: 20%;
+  background-color: purple;
+  border-radius: 100%;
+
+  /* background-color: red; */
+}
+
+.widget-icon {
+  color: white;
+  font-size: 40px;
+}
+
+.widget-text {
+  /* background-color: red; */
+  width: 100%;
+  padding: 20%;
+}
+
+.widget-title {
+  font-size: 18px;
+}
+
+.widget-subtitle {
+  margin-top: 10%;
+  font-size: 24px;
+  font-weight: 800;
+}
